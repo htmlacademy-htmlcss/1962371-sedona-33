@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Денис Жосу](https://up.htmlacademy.ru/htmlcss/33/user/1962371).
-* Наставник: `Андрей Ефимов`https://up.htmlacademy.ru/htmlcss/33/user/367335).
+* Наставник: [Андрей Ефимов](https://up.htmlacademy.ru/htmlcss/33/user/367335).
 
 ---
 
