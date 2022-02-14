@@ -2,7 +2,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/ptsans-400.woff2) format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -10,15 +10,20 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/ptsans-700.woff2) format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
+.html {
+  background-color: #F2F2F2;
+  color: #000000;
+}
+
 body {
-  font-family: "PT Sans"sans-serif;
-  font-size: "18";
-  line-height: "24";
-  background: #F2F2F2;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  background-color: #FFFFFF;
   color: #000000;
 }
 
@@ -28,49 +33,44 @@ body {
   line-height: 26px;
   font-weight: 700;
   text-align: center;
-  color: #ffffff;
+  color: #FFFFFF;
   background: #83B3D3;
-  text-decoration: none;
   text-transform: uppercase;
 }
 
 .page-header {
   color: #000000;
-  background: #ffffff;
+  background-color: #FFFFFF;
 }
 
 .navigation-link {
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
-  text-align: center;
-  color: #000000;
+  color: inherit;
   text-decoration: none;
 }
 
 .main-index {
-  color: #000000;
-  background: #fffff2;
   background-image: url("../images/sedona-picture/foto-sedona.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
-.description-main-title {
-  font-weight: bold;
+.main-title {
+  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
 }
 
-.description-main-explanation {
+.description-reason {
   font-size: 22px;
   line-height: 36px;
   text-align: center;
   color: #333333;
 }
-
 
 .advantages-list {
   text-align: center;
@@ -83,34 +83,25 @@ body {
   text-transform: uppercase;
 }
 
-.services-title-house {
+.services-title {
   font-size: 24px;
   line-height: 20px;
   font-weight: 700;
   text-transform: uppercase;
-  background-image: url(../images/icons/house.svg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.services-title-house {
+  background-image: url("../images/icons/house.svg");
 }
 
 .services-title-burger {
-  font-size: 24px;
-  line-height: 20px;
-  font-weight: 700;
-  text-transform: uppercase;
-  background-image: url(../images/icons/burger.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("../images/icons/burger.svg");
 }
 
 .services-title-gift {
-  font-size: 24px;
-  line-height: 20px;
-  font-weight: 700;
-  text-transform: uppercase;
-  background-image: url(../images/icons/box.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("../images/icons/box.svg");
 }
 
 .description-title {
@@ -118,36 +109,48 @@ body {
   line-height: 21px;
 }
 
-.city-fone-image {
+.advantages-city-special-background {
   color: #FFFFFF;
   background-color: #83B3D3;
 }
 
-.light-fone {
-  color: #000000;
+.advantages-city-other-background {
+  background: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-city {
   background: rgba(131, 179, 211, 0.12);
+}
+
+.services-city {
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.services-city-special-background {
+  background-color: #FFFFFF;
 }
 
 .advantages-city-fone {
   color: #000000;
-  background: rgba(131, 179, 211, 0.2);
+  background-color: rgba(131, 179, 211, 0.2);
 }
 
 .description-explanation {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.search-hotels-sedona {
+  color: #FFFFFF;
+  background-color: #756257;
   font-size: 24px;
   line-height: 26px;
 }
 
-.search {
-  color: #ffffff;
-  background: #756257;
-  font-size: 24px;
-  line-height: 26px;
-}
-
-.trip {
-  color: #ffffff;
-  background: #756257;
+.navigation-link .search-hotel {
+  color: #FFFFFF;
+  background-color: #756257;
   font-size: 16px;
   line-height: 20px;
 }
@@ -157,41 +160,34 @@ body {
   font-size: 40px;
   line-height: 40px;
   text-decoration: none;
-
 }
 
 .distribution {
-  color: #000000;
-  background-color: #ffffff;
-  background-image: url(../images/sedona-picture/background-footer.jpg);
+  color: #FFFFFF;
+  background-image: url("../images/sedona-picture/background-footer.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
 
 .inner-header-title {
-  color: #ffffff;
   font-size: 60px;
   line-height: 78px;
 }
 
-.main-inner {
-  color: #ffffff;
-  background-image: url(../images/sedona-picture/catalog-background.jpg);
+.inner-header-bachground {
+  color: #FFFFFF;
+  background-image: url("../images/sedona-picture/catalog-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
-.breadcrumbs {
-  color: #ffffff;
-}
-
-.breadcrumbs-link {
+.breadcrumbs .breadcrumbs-link {
   color: inherit;
 }
 
 .filter-group-catalog,
 .price-hotel {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 20px;
   line-height: 26px;
 }
@@ -219,7 +215,7 @@ body {
 
 .product-card-type,
 .product-card-price {
-  color: #000000;
+  color: #333333;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
@@ -227,7 +223,7 @@ body {
 
 .about-card,
 .product-card-like {
-  background: #756257;
+  background-color: #756257;
   color: #FFFFFF;
   font-weight: 700;
   font-size: 16px;
@@ -238,12 +234,12 @@ body {
 }
 
 .product-card-like {
-  background: #83B3D3;
+  background-color: #83B3D3;
 }
 
 .rating {
   color: #333333;
-  background: #F2F2F2;
+  background-color: #F2F2F2;
   font-size: 16px;
   line-height: 21px;
   text-transform: uppercase;
@@ -251,7 +247,7 @@ body {
 
 .pagination-item {
   color: #FFFFFF;
-  background: #83B3D3;
+  background-color: #83B3D3;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -259,18 +255,13 @@ body {
   text-transform: uppercase;
 }
 
-.pagination-link pagination-current {
-  background: #F2F2F2;
+.pagination-current {
+  background-color: #F2F2F2;
+  color: #000000;
 }
-
 
 .show-hotels {
   color: #333333;
   font-size: 18px;
   line-height: 23px;
-}
-
-.distribution-catalog {
-  color: #000000;
-  background: #FFFFFF;
 }
