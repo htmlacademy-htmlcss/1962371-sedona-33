@@ -30,7 +30,6 @@ body {
   font-size: 18px;
   line-height: 24px;
   background-color: #FFFFFF;
-  color: #000000;
 }
 
 .button {
@@ -44,14 +43,11 @@ body {
   text-transform: uppercase;
 }
 
-
 .navigation {
   display: flex;
   width: 1060px;
   margin: 0 auto;
 }
-
-
 
 .navigation-list {
   width: 400px;
@@ -99,14 +95,12 @@ body {
   text-transform: uppercase;
 }
 
-
 .description-reason {
   font-size: 22px;
   line-height: 36px;
   text-align: center;
   color: #333333;
 }
-
 
 .advantages-list {
   text-align: center;
@@ -146,11 +140,11 @@ body {
   width: 1200px;
 }
 
-.services-list{
+.services-list {
   display: flex;
 }
 
-.advantages-city-additional{
+.advantages-city-additional {
   display: flex;
   width: 1200px;
 }
@@ -166,36 +160,36 @@ body {
   width: 400px;
 }
 
-.suggested-hotels{
-display: flex;
-margin: 0 auto;
+.suggested-hotels {
+  display: flex;
+  margin: 0 auto;
 }
 
 .distribution {
   display: flex;
   flex-direction: column;
-margin: 0 auto;
+  margin: 0 auto;
 }
 
-.footer-page{
+.footer-page {
   display: flex;
   width: 1200px;
   margin: 0 auto;
 }
 
-.footer-social{
+.footer-social {
   width: 107px;
   margin-right: 61px;
 }
 
-.footer-contacts{
+.footer-contacts {
   width: 720px;
-text-align: center;
+  text-align: center;
 }
 
-.footer-site{
-width: 115px;
-margin-left: auto;
+.footer-site {
+  width: 115px;
+  margin-left: auto;
 }
 
 .advantages-city,
@@ -205,12 +199,12 @@ margin-left: auto;
 }
 
 
-.services-city:nth-child(2n){
+.services-city:nth-child(2n) {
   background-color: #FFFFFF;
 }
 
-.advantages-city:nth-child(2n){
-  background-color:  rgba(131, 179, 211, 0.2);
+.advantages-city:nth-child(2n) {
+  background-color: rgba(131, 179, 211, 0.2);
 }
 
 
@@ -252,12 +246,11 @@ margin-left: auto;
   line-height: 78px;
 }
 
-.inner-header{
+.inner-header {
   width: 1200px;
 }
 
-
-.inner-header-bachground {
+.inner-header-background {
   color: #FFFFFF;
   background-image: url("../images/sedona-picture/catalog-background.jpg");
   background-size: 100% auto;
@@ -268,50 +261,48 @@ margin-left: auto;
   color: inherit;
 }
 
-.catalog-filter{
+.catalog-filter {
   display: flex;
 }
 
-.filter-group-infrastructure{
+.filter-group-infrastructure {
   width: 150px;
   padding: 0;
   margin-right: 67px;
   margin-left: 71px;
 }
 
-.catalog-filter-list{
+.catalog-filter-list {
   padding: 0;
 }
 
-.search-hotels-choice{
+.search-hotels-choice {
   display: flex;
   width: 1057px;
 }
 
-.search-hotels{
+.search-hotels {
   width: 338px;
 }
 
-.product-list{
+.product-list {
   display: flex;
   width: 1200px;
-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-
-
-.select-control{
+.select-control {
   width: 287px;
   margin-left: 81px;
 }
 
-.filter-group-housing{
+.filter-group-housing {
   width: 150px;
   padding: 0;
   margin-right: 157px;
 }
 
-.price-hotel{
+.price-hotel {
   width: 287px;
   margin-left: 81px;
 }
@@ -380,23 +371,22 @@ flex-wrap: wrap;
   text-transform: uppercase;
 }
 
-
 .pagination-item {
   width: 55px;
   font-size: 20px;
   line-height: 26px;
 }
 
-.pagination{
+.pagination {
   display: flex;
 }
 
-.pagination-list{
+.pagination-list {
   display: flex;
   width: 1056px;
 }
 
-.show-hotels{
+.show-hotels {
   width: 388px;
   margin-left: 301px;
 }
