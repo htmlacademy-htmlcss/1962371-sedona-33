@@ -16,7 +16,7 @@
         <img class="page-header-logo" src="images/logo/logo-header.svg" width="139" height="70"
           alt="Логотип город Седона.">
       </a>
-      <ul class="navigation-list">
+      <ul class="navigation-page">
         <li class="navigation-item">
           <a class="navigation-link" href="index.html">
             Главная
@@ -33,16 +33,16 @@
           </a>
         </li>
       </ul>
-      <ul class="navigation-list navigation-user">
+      <ul class="navigation-user">
         <li class="navigation-item">
-          <a class="navigation-link" href="#">
+          <a class="navigation-user navigation-link-search" href="#">
             <span class="visually-hidden">
               Поиск.
             </span>
           </a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link" href="#">
+          <a class="navigation-user navigation-link-favotite" href="#">
             <span class="number-of-likes">12
             </span>
             <span class="visually-hidden">
@@ -138,13 +138,15 @@
               Стоимость, ₽:
             </legend>
             <div class="range">
-            <label class="range-group">
-              <input class="range-field" name="price[]" type="number" value="0" max="10000" min="0" step="50">
-              <span class="range-label">От</span>
-            </label>
-            <input class="range-field" name="price[]" type="number" value="90000" max="10000" min="0" step="50">
-            <span class="range-label">До</span>
-          </label>
+              <label class="range-group">
+                <input class="range-field" name="price[]" type="number" value="0" max="10000" min="0" step="50">
+                <span class="range-label">От</span>
+              </label>
+              <label>
+                <input class="range-field" name="price[]" type="number" value="90000" max="10000" min="0" step="50">
+                <span class="range-label">До</span>
+              </label>
+            </div>
           </fieldset>
           <button class="button" type="submit">
             Применить
@@ -219,10 +221,10 @@
           <a class="product-card-like" href="#">
             В избранное
           </a>
-          <p class="visually-hidden">
+          <p class="visually-hidden star-rating">
             4 звезды.
           </p>
-          <p class="rating">
+          <p class="rating ">
             Рейтинг: 8,5
           </p>
         </li>
@@ -246,7 +248,7 @@
           <a class="product-card-like" href="#">
             В избранное
           </a>
-          <p class="visually-hidden">
+          <p class="visually-hidden star-rating">
             3 звезды.
           </p>
           <p class="rating">
@@ -273,7 +275,7 @@
           <a class="product-card-like" href="#">
             В избранное
           </a>
-          <p class="visually-hidden">
+          <p class="visually-hidden star-rating">
             2 звезды.
           </p>
           <p class="rating">
@@ -300,7 +302,7 @@
           <a class="product-card-like" href="#">
             В избранное
           </a>
-          <p class="visually-hidden">
+          <p class="visually-hidden star-rating">
             2 звезды.
           </p>
           <p class="rating">
@@ -366,7 +368,7 @@
       <h2 class="main-title main-title-inner">
         Подпишитесь на рассылку
       </h2>
-      <p class="description-explanation">
+      <p class="description-explanation description-explanation-inner">
         Только полезная информация и никакого спама, <br> честное бойскаутское!
       </p>
       <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
