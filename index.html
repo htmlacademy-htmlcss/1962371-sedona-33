@@ -35,14 +35,14 @@
       </ul>
       <ul class="navigation-user">
         <li class="navigation-item">
-          <a class="navigation-user navigation-link-search" href="#">
+          <a class="navigation-user-link navigation-link-search" href="#">
             <span class="visually-hidden">
               Поиск.
             </span>
           </a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-user navigation-link-search" href="#">
+          <a class="navigation-user-link navigation-link-favotite" href="#">
             <span class="number-of-likes">12
             </span>
             <span class="visually-hidden">
@@ -62,13 +62,11 @@
     <h1 class="visually-hidden">
       Добро пожаловать в Седону.
     </h1>
-    <div class="welcome-header">
-      <header class="header-background">
-        <h2 class="visually-hidden">
-          Преимущества Седоны
-        </h2>
-      </header>
-    </div>
+    <header class="header-background">
+      <h2 class="visually-hidden">
+        Преимущества Седоны
+      </h2>
+    </header>
     <p class="main-title">
       Седона — небольшой городок в Аризоне, <br>
       заслуживающий большего!
@@ -86,8 +84,8 @@
             </h2>
             <p class="advantages-description">
               — №1 —
-              <br>
-              <br>
+            </p>
+            <p class="advantages-description">
               Седона — не аттракцион <br> для туристов, <br> там течёт своя жизнь.
             </p>
           </div>
@@ -98,7 +96,7 @@
                 Жильё
               </h3>
               <p class="description-title">
-                Рекомендуем пожить в настоящем мотеле, <br> всё как в кино!
+                Рекомендуем пожить <br> в настоящем мотеле, <br> всё как в кино!
               </p>
             </li>
             <li class="services-item services-item-special-background">
@@ -246,6 +244,12 @@
       </a>
     </section>
   </footer>
+  <script>
+    window.pinegladePP = {
+      breakpoints: [1200]
+    };
+  </script>
+  <script src="https://efiand.github.io/pineglade-pp/pineglade-pp.min.js"></script>
 </body>
 
 </html>

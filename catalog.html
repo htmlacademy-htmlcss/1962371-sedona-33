@@ -35,14 +35,14 @@
       </ul>
       <ul class="navigation-user">
         <li class="navigation-item">
-          <a class="navigation-user navigation-link-search" href="#">
+          <a class="navigation-user-link navigation-link-search" href="#">
             <span class="visually-hidden">
               Поиск.
             </span>
           </a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-user navigation-link-favotite" href="#">
+          <a class="navigation-user-link navigation-link-favotite" href="#">
             <span class="number-of-likes">12
             </span>
             <span class="visually-hidden">
@@ -116,7 +116,7 @@
               <li class="catalog-filter-item">
                 <label class="control">
                   <input class="control-input" name="type-of-housing" type="radio" value="hostel" checked>
-                  Гостиицы
+                  Гостиница
                 </label>
               </li>
               <li class="catalog-filter-item">
@@ -142,18 +142,20 @@
                 <input class="range-field" name="price[]" type="number" value="0" max="10000" min="0" step="50">
                 <span class="range-label">От</span>
               </label>
-              <label>
+              <label class="range-group">
                 <input class="range-field" name="price[]" type="number" value="90000" max="10000" min="0" step="50">
                 <span class="range-label">До</span>
               </label>
             </div>
           </fieldset>
-          <button class="button" type="submit">
-            Применить
-          </button>
-          <button class="reset" type="reset">
-            Сбросить
-          </button>
+          <div class="catalog-filter-buttons">
+            <button class="button button-catalog" type="submit">
+              Применить
+            </button>
+            <button class="reset" type="reset">
+              Сбросить
+            </button>
+          </div>
         </form>
       </section>
     </div>
@@ -224,7 +226,7 @@
           <p class="visually-hidden star-rating">
             4 звезды.
           </p>
-          <p class="rating ">
+          <p class="rating">
             Рейтинг: 8,5
           </p>
         </li>
@@ -310,9 +312,11 @@
           </p>
         </li>
       </ul>
-      <button class="button pagination-show-more" type="button">
-        Загрузить еще
-      </button>
+      <p class="result-more">
+        <button class="button pagination-show-more" type="button">
+          Загрузить еще
+        </button>
+      </p>
       <div class=pagination>
         <ul class="pagination-list">
           <li class="pagination-item">
@@ -346,7 +350,7 @@
             </a>
           </li>
         </ul>
-        <form action="https://echo.htmlacademy.ru/">
+        <form class="hotels-page" action="https://echo.htmlacademy.ru/">
           <label class="show-hotels">
             Гостиниц на странице:
             <select class="select-control">
@@ -432,6 +436,12 @@
       </a>
     </section>
   </footer>
+  <script>
+    window.pinegladePP = {
+      breakpoints: [1200]
+    };
+  </script>
+  <script src="https://efiand.github.io/pineglade-pp/pineglade-pp.min.js"></script>
 </body>
 
 </html>
