@@ -183,16 +183,18 @@ body {
 }
 
 .advantages-list {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;
   text-align: center;
 }
 
-.advantages-list,
 .advantages-city {
   display: flex;
   flex-wrap: wrap;
+  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .advantages-item {
@@ -255,6 +257,7 @@ body {
 .services-item {
   width: 256px;
   padding: 98px 72px 69px;
+  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .services-title {
@@ -318,11 +321,6 @@ body {
 
 .advantages-city-reverse {
   flex-direction: row-reverse;
-}
-
-.advantages-city,
-.services-item {
-  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .services-item:nth-child(2n) {
