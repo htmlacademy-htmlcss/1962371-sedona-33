@@ -35,14 +35,26 @@
       </ul>
       <ul class="navigation-user">
         <li class="navigation-item">
-          <a class="navigation-user navigation-link-search" href="#">
+          <a class="navigation-user-link navigation-link-search" href="#">
+            <svg class="navigation-icon" aria-hidden="true" focusable="false" width="20" height="19" viewBox="0 0 20 19"
+              fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="m19.03 17.05-3.71-3.7c1-1.3 1.7-3 1.7-4.9 0-4.4-3.61-8-8.02-8a8.12 8.12 0 0 0-8.03 8.1c0 4.4 3.61 8 8.03 8 1.8 0 3.5-.6 4.91-1.7l3.71 3.7 1.4-1.5ZM9 14.55c-3.31 0-6.02-2.7-6.02-6a6.03 6.03 0 0 1 12.03 0c0 3.3-2.7 6-6.01 6Z"
+                fill="#000" />
+            </svg>
             <span class="visually-hidden">
               Поиск.
             </span>
           </a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-user navigation-link-favotite" href="#">
+          <a class="navigation-user-link navigation-link-favotite" href="#">
+            <svg class="navigation-icon" aria-hidden="true" focusable="false" width="19" height="17" viewBox="0 0 19 17"
+              fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M9.44 17c-.3 0-.6-.1-.8-.4-5.41-6.1-6.72-7.5-7.02-7.9A5.4 5.4 0 0 1 6.03 0c1.3 0 2.51.5 3.51 1.3a5.47 5.47 0 0 1 9.03 4.1c0 1.3-.5 2.5-1.3 3.4l-7.02 7.9c-.2.2-.4.3-.8.3ZM3.43 7.5c.3.4 3.5 4 6.11 6.9l6.22-7c.5-.5.7-1.2.7-2 0-1.8-1.5-3.3-3.3-3.3-1 0-2.01.5-2.71 1.3-.3.3-.6.4-.9.4-.3 0-.6-.2-.8-.4a3.7 3.7 0 0 0-2.72-1.3c-1.8 0-3.3 1.5-3.3 3.3-.1.9.3 1.6.7 2.1-.1 0-.1 0 0 0Z"
+                fill="#000" />
+            </svg>
             <span class="number-of-likes">12
             </span>
             <span class="visually-hidden">
@@ -51,7 +63,7 @@
           </a>
         </li>
         <li class="navigation-item">
-          <a class="link-hotel-reservations" href="#">
+          <a class="button-link link-hotel-reservations" href="#">
             Хочу сюда!
           </a>
         </li>
@@ -116,7 +128,7 @@
               <li class="catalog-filter-item">
                 <label class="control">
                   <input class="control-input" name="type-of-housing" type="radio" value="hostel" checked>
-                  Гостиицы
+                  Гостиница
                 </label>
               </li>
               <li class="catalog-filter-item">
@@ -142,18 +154,20 @@
                 <input class="range-field" name="price[]" type="number" value="0" max="10000" min="0" step="50">
                 <span class="range-label">От</span>
               </label>
-              <label>
+              <label class="range-group">
                 <input class="range-field" name="price[]" type="number" value="90000" max="10000" min="0" step="50">
                 <span class="range-label">До</span>
               </label>
             </div>
           </fieldset>
-          <button class="button" type="submit">
-            Применить
-          </button>
-          <button class="reset" type="reset">
-            Сбросить
-          </button>
+          <div class="catalog-filter-buttons">
+            <button class="button button-catalog" type="submit">
+              Применить
+            </button>
+            <button class="reset" type="reset">
+              Сбросить
+            </button>
+          </div>
         </form>
       </section>
     </div>
@@ -215,16 +229,18 @@
           <b class="product-card-price">
             От 4000 ₽
           </b>
-          <a class="about-card" href="#">
+          <a class="button-link" href="#">
             Подробнее
           </a>
-          <a class="product-card-like" href="#">
+          <a class="button-link product-card-like" href="#">
             В избранное
           </a>
-          <p class="visually-hidden star-rating">
-            4 звезды.
+          <p class="star-rating">
+            <span class="visually-hidden">
+              Рейтинг: 4 звезды.
+            </span>
           </p>
-          <p class="rating ">
+          <p class="rating">
             Рейтинг: 8,5
           </p>
         </li>
@@ -242,14 +258,16 @@
           <b class="product-card-price">
             От 5000 ₽
           </b>
-          <a class="about-card" href="#">
+          <a class="button-link" href="#">
             Подробнее
           </a>
-          <a class="product-card-like" href="#">
+          <a class="button-link product-card-like" href="#">
             В избранное
           </a>
-          <p class="visually-hidden star-rating">
-            3 звезды.
+          <p class="star-rating">
+            <span class="visually-hidden">
+              Рейтинг: 3 звезды.
+            </span>
           </p>
           <p class="rating">
             Рейтинг: 8,9
@@ -269,14 +287,16 @@
           <b class="product-card-price">
             От 2000 ₽
           </b>
-          <a class="about-card" href="#">
+          <a class="button-link" href="#">
             Подробнее
           </a>
-          <a class="product-card-like" href="#">
+          <a class="button-link product-card-like" href="#">
             В избранное
           </a>
-          <p class="visually-hidden star-rating">
-            2 звезды.
+          <p class="star-rating">
+            <span class="visually-hidden">
+              Рейтинг: 2 звезды.
+            </span>
           </p>
           <p class="rating">
             Рейтинг: 9,2
@@ -296,23 +316,27 @@
           <b class="product-card-price">
             От 3000 ₽
           </b>
-          <a class="about-card" href="#">
+          <a class="button-link" href="#">
             Подробнее
           </a>
-          <a class="product-card-like" href="#">
+          <a class="button-link product-card-like" href="#">
             В избранное
           </a>
-          <p class="visually-hidden star-rating">
-            2 звезды.
+          <p class="star-rating">
+            <span class="visually-hidden">
+              Рейтинг: 2 звезды.
+            </span>
           </p>
           <p class="rating">
             Рейтинг: 8,5
           </p>
         </li>
       </ul>
-      <button class="button pagination-show-more" type="button">
-        Загрузить еще
-      </button>
+      <p class="result-more">
+        <button class="button pagination-show-more" type="button">
+          Загрузить еще
+        </button>
+      </p>
       <div class=pagination>
         <ul class="pagination-list">
           <li class="pagination-item">
@@ -346,7 +370,7 @@
             </a>
           </li>
         </ul>
-        <form action="https://echo.htmlacademy.ru/">
+        <form class="hotels-page" action="https://echo.htmlacademy.ru/">
           <label class="show-hotels">
             Гостиниц на странице:
             <select class="select-control">
@@ -432,6 +456,12 @@
       </a>
     </section>
   </footer>
+  <script>
+    window.pinegladePP = {
+      breakpoints: [1200]
+    };
+  </script>
+  <script src="https://efiand.github.io/pineglade-pp/pineglade-pp.min.js"></script>
 </body>
 
 </html>
