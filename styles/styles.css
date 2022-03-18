@@ -1379,7 +1379,6 @@ body {
   border-radius: 30px;
 }
 
-
 .modal-close-button {
   position: absolute;
   padding: 25px;
@@ -1394,6 +1393,19 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
+}
+
+.modal-close-button:hover {
+  background-color: #e6e6e6;
+}
+
+.modal-close-button:focus-visible {
+  background-color: #e6e6e6;
+  outline: 3px solid #83b3d3;
+}
+
+.modal-close-button:active {
+  opacity: 0.3;
 }
 
 .modal-title {
@@ -1459,6 +1471,33 @@ input::-webkit-input-placeholder {
   height: 32px;
   font-size: 16px;
   line-height: 40px;
+}
+
+.auth-form-field:hover {
+  background: #e6e6e6;
+}
+
+.auth-form-field:focus-visible {
+  background-color: #e6e6e6;
+  outline: 3px solid #83b3d3;
+}
+
+.auth-form-field:active {
+  background: #ffffff;
+  outline: 2px solid #000000;
+}
+
+.form-button:hover {
+  opacity: 1;
+}
+
+.form-button:focus-visible {
+  opacity: 1;
+  outline: 3px solid #83b3d3;
+}
+
+.form-button:active {
+  opacity: 0.3;
 }
 
 .form-field-counter {
@@ -1540,6 +1579,11 @@ input::-webkit-input-placeholder {
   width: 25px;
 }
 
+.auth-form-field:focus+.form-tooltip,
+.form-tooltip:focus-within, .form-tooltip:hover {
+  background-color: #68a2ca;
+}
+
 .form-tooltip::before {
   background-color: currentColor;
   content: "";
@@ -1601,6 +1645,19 @@ input::-webkit-input-placeholder {
   line-height: 26px;
   padding: 17px 40px 16px;
   border-radius: 10px;
+}
+
+.form-submit:hover {
+  background-color: #68a2ca;
+}
+
+.form-submit:focus-visible {
+  background-color: #68a2ca;
+  outline: 3px solid #756257;
+}
+
+.form-submit:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .modal-container-close {
