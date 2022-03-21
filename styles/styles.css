@@ -239,9 +239,9 @@ body {
   color: #333333;
 }
 
-.pic img {
+.pic {
   object-fit: cover;
-  height: 100%;
+  height: auto;
 }
 
 .advantages-list {
@@ -1377,18 +1377,18 @@ body {
   flex-wrap: wrap;
   align-items: flex-start;
   position: relative;
-  margin: 0 auto auto;
+  margin: auto;
   background-color: #ffffff;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
-  max-width: 561px;
-  padding: 55px 77px 70px;
+  max-width: 575px;
+  padding: 60px 70px 70px;
   border-radius: 30px;
 }
 
 .modal-close-button {
   position: absolute;
-  top: 52px;
-  right: 71px;
+  top: 57px;
+  right: 70px;
   width: 53px;
   height: 53px;
   background-color: #f2f2f2;
@@ -1422,7 +1422,7 @@ body {
 
 .modal-title {
   font-family: "PT Sans", sans-serif;
-  margin: 2px 90px 61px -10px;
+  margin: 2px 0 59px;
   font-size: 30px;
   line-height: 40px;
   font-weight: 700;
@@ -1455,9 +1455,8 @@ body {
 
 .field-label {
   font-weight: 700;
-  padding: 1px 10px 0 0;
+  padding: 3px 10px 0 0;
   width: 155px;
-  margin-left: -8px;
   align-self: center;
   order: -1;
   box-sizing: border-box;
@@ -1469,7 +1468,7 @@ body {
   border-radius: 4px;
   flex-grow: 1;
   font-weight: 700;
-  padding: 2px 20px 4px 19px;
+  padding: 4px 18px;
   font-size: 15px;
   line-height: 40px;
 }
@@ -1486,6 +1485,13 @@ body {
 .form-field:active {
   background: #ffffff;
   outline: 2px solid #000000;
+}
+
+.field::placeholder,
+.form-field::placeholder {
+  color: inherit;
+  opacity: 0.6;
+  font-family: inherit;
 }
 
 .form-button:hover {
@@ -1519,7 +1525,7 @@ body {
   color: #333333;
   font-size: 16px;
   line-height: 40px;
-  margin: -6px 0 6px 147px;
+  margin: -6px 0 4px 155px;
 }
 
 .form-status-error {
@@ -1532,8 +1538,8 @@ body {
   border-radius: 4px;
   height: 20px;
   opacity: 0.3;
-  right: 11px;
-  top: 16px;
+  right: 16px;
+  top: 19px;
   width: 20px;
   border: none;
   cursor: pointer;
@@ -1574,7 +1580,7 @@ body {
   cursor: help;
   display: flex;
   height: 25px;
-  margin: 14px 20px 0 0;
+  margin: 17px 20px 0 0;
   order: -1;
   position: relative;
   width: 25px;
@@ -1641,8 +1647,8 @@ body {
 }
 
 .form-submit {
-  margin: 41px auto auto -7px;
-  width: 575px;
+  margin: 43px auto auto 0;
+  width: 100%;
   line-height: 26px;
   padding: 18px 40px 16px;
   border-radius: 10px;
@@ -1661,9 +1667,9 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.modal-container-close {
+/* .modal-container-close {
   display: none;
-}
+} */
 
 .visually-hidden {
   position: absolute;
