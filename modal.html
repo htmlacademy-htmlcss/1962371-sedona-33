@@ -275,7 +275,7 @@
     </section>
   </footer>
   <div class="modal-container modal-container-close">
-    <div class="modal modal-auth">
+    <div class="modal">
       <button class="modal-close-button">
         <span class="visually-hidden">
           Закрыть окно.
@@ -285,14 +285,13 @@
         <h2 class="modal-title">
           Поиск гостиницы в Седоне
         </h2>
-        <form class="auth-form" action="https://echo.htmlacademy.ru/" method="post">
-          <p class="field-group field-group-data">
-            <span class="field-label">
+        <form class="booking-form" action="https://echo.htmlacademy.ru/" method="post">
+          <p class="field-group">
+            <label class="field-label" for="date-from">
               Дата заезда:
-            </span>
-            <label class="visually-hidden" for="data-from">Дата заезда.</label>
-            <input id="date-from" class="auth-form-field field-data" type="text" name="dates[]"
-              placeholder="27 апреля 2020"
+            </label>
+            <input id="date-from" class="form-field field-date" type="text" name="dates[]" placeholder="Укажите дату"
+              value="27 апреля 2020"
               pattern="^\d{1,2} ((января)|(февраля)|(марта)|(апреля)|(мая)|(июня)|(июля)|(августа)|(сентября)|(октября)|(ноября)|(декабря)) \d{4}$"
               required="">
             <span class="form-status form-status-error">
@@ -304,14 +303,12 @@
               </span>
             </button>
           </p>
-          <p class="field-group field-group-data">
-            <span class="field-label">Дата выезда:
-            </span>
-            <label class="visually-hidden" for="data-to">
-              Дата выезда.
+          <p class="field-group">
+            <label class="field-label" for="date-from">
+              Дата выезда:
             </label>
-            <input id="date-to" class="auth-form-field field-data" type="text" name="dates[]"
-              placeholder="1 сентября 2021"
+            <input id="date-to" class="form-field field-date" type="text" name="dates[]" placeholder="Укажите дату"
+              value="1 сентября 2021"
               pattern="^\d{1,2} ((января)|(февраля)|(марта)|(апреля)|(мая)|(июня)|(июля)|(августа)|(сентября)|(октября)|(ноября)|(декабря)) \d{4}$"
               required="">
             <span class="form-status">
@@ -324,17 +321,18 @@
             </button>
           </p>
           <p class="field-group field-group-people">
-            <span class="field-label">Взрослые:
-            </span>
-            <label class="visually-hidden" for="adults">
-              Количество человек.
+            <label class="field-label" for="adults">
+              Взрослые:
+              <span class="visually-hidden">
+                Количество человек.
+              </span>
             </label>
             <button class="form-button form-button-step-down" type="button">
               <span class="visually-hidden">
                 Меньше.
               </span>
             </button>
-            <input id="adults" class="auth-form-field form-field-counter" name="counts" type="number" value="2" min="1"
+            <input id="adults" class="form-field form-field-counter" name="counts" type="number" value="2" min="1"
               max="99" required="">
             <button class="form-button form-button-step-up" type="button">
               <span class="visually-hidden">
@@ -354,13 +352,12 @@
                 Меньше.
               </span>
             </button>
-            <input id="children" class="auth-form-field form-field-counter" name="counts" type="number" value="1"
+            <input id="children" class="form-field form-field-counter" name="counts" type="number" value="1"
               aria-describedby="tooltip-children" min="0" max="99" required="">
             <span class="form-tooltip" aria-hidden="true">
               <span id="tooltip-children" class="form-tooltip-text" role="tooltip">
                 Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет
-                размещаются
-                бесплатно.
+                размещаются бесплатно.
               </span>
             </span>
             <button class="form-button form-button-step-up" type="button">
@@ -369,7 +366,8 @@
               </span>
             </button>
           </p>
-          <button class="button button-tooltip form-submit" type="submit">Найти
+          <button class="button button-tooltip form-submit" type="submit">
+            Найти
           </button>
         </form>
       </section>
