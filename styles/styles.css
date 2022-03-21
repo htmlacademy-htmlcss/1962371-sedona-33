@@ -1487,10 +1487,11 @@ body {
   outline: 2px solid #000000;
 }
 
-.form-date::placeholder,
-.form-field-counter::placeholder {
+.field::placeholder,
+.form-field::placeholder {
   color: inherit;
   opacity: 0.6;
+  font-family: inherit;
 }
 
 .form-button:hover {
@@ -1666,10 +1667,9 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
-
-.modal-container-close {
+/* .modal-container-close {
   display: none;
-}
+} */
 
 .visually-hidden {
   position: absolute;
