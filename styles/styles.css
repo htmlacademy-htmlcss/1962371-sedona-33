@@ -55,7 +55,7 @@ body {
   display: grid;
   gap: 46px;
   grid-template-columns: 140px 3fr 2fr;
-  margin: 0 70px -6px;
+  margin: 0 70px -5px;
   position: relative;
 }
 
@@ -176,7 +176,7 @@ body {
   border-radius: 10px;
   font-size: 20px;
   line-height: 36px;
-  padding: 19px 40px 15px;
+  padding: 10px 40px 14px;
   font-family: inherit;
 }
 
@@ -237,7 +237,7 @@ body {
 }
 
 .description-reason {
-  margin: 0 0 80px;
+  margin: 0 0 81px;
   font-size: 22px;
   line-height: 36px;
   text-align: center;
@@ -267,7 +267,7 @@ body {
 .advantages-item {
   box-sizing: border-box;
   width: 400px;
-  padding: 97px 75px 108px;
+  padding: 96px 75px 108px;
   background-color: rgba(131, 179, 211, 0.12);
 }
 
@@ -318,7 +318,7 @@ body {
 
 .services-item {
   width: 256px;
-  padding: 98px 72px 89px;
+  padding: 99px 72px 88px;
   background-color: rgba(131, 179, 211, 0.12);
 }
 
@@ -346,7 +346,7 @@ body {
 
 .suggested-hotels {
   margin: 0 auto;
-  padding: 89px 72px 93px;
+  padding: 91px 72px 92px;
 }
 
 .main-title-mailing {
@@ -356,7 +356,7 @@ body {
 .footer-page {
   display: flex;
   flex-wrap: wrap;
-  padding: 39px 72px;
+  padding: 38px 72px;
 }
 
 .footer-social {
@@ -415,7 +415,7 @@ body {
 .description-explanation {
   font-size: 22px;
   line-height: 26px;
-  margin: 0 auto 57px;
+  margin: 0 auto 56px;
   max-width: 720px;
   text-align: center;
   font-style: normal;
@@ -439,7 +439,7 @@ body {
 
 .field {
   width: 552px;
-  padding: 25px 22px 17px;
+  padding: 16px 22px 17px;
   border-radius: 10px 0 0 10px;
   font: inherit;
   border: 2px solid transparent;
@@ -500,7 +500,7 @@ body {
 .distribution {
   margin: 0 auto;
   height: 224px;
-  padding: 28px 72px 160px;
+  padding: 29px 72px 160px;
   color: #ffffff;
   background-image: url("../images/sedona-picture/background-footer.jpg");
   background-repeat: no-repeat;
@@ -514,7 +514,7 @@ body {
 }
 
 .inner-header {
-  padding: 35px 75px 32px;
+  padding: 35px 75px 33px;
 }
 
 .inner-header-background {
@@ -637,7 +637,7 @@ body {
 .search-hotels-choice {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 54px;
+  margin-bottom: 53px;
 }
 
 .format-selection {
@@ -649,7 +649,7 @@ body {
 }
 
 .display-format {
-  margin: 4px 0 0 4px;
+  margin: 2px 0 0 4px;
   border-radius: 4px;
   border: 2px solid #e6e6e6;
   display: flex;
@@ -710,7 +710,7 @@ body {
   background-color: transparent;
   border: 2px solid #e6e6e6;
   color: #333333;
-  padding: 9px 54px 12px 12px;
+  padding: 9px 54px 12px 11px;
   appearance: none;
   outline: none;
   box-sizing: border-box;
@@ -719,7 +719,7 @@ body {
 }
 
 .select-pages {
-  margin-left: 50px;
+  margin-left: 58px;
   width: 160px;
 }
 
@@ -748,7 +748,7 @@ body {
 
 .select-sorting {
   width: 287px;
-  margin: 3px 37px 0 0;
+  margin: 3px 36px 0 0;
 }
 
 .select:active::after {
@@ -1210,7 +1210,7 @@ body {
 .result-more {
   border-bottom: 1px solid #e6e6e6;
   border-top: 1px solid #e6e6e6;
-  margin: 34px 0 30px;
+  margin: 33px 0 30px;
   padding: 30px;
 }
 
