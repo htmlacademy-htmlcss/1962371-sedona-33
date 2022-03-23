@@ -156,7 +156,7 @@ body {
 }
 
 .button-link {
-  padding: 8px 15px 8px;
+  padding: 8px 15px 9px;
   background-color: #756257;
   color: #ffffff;
   font-size: 16px;
@@ -514,7 +514,7 @@ body {
 }
 
 .inner-header {
-  padding: 35px 75px 31px;
+  padding: 35px 75px 32px;
 }
 
 .inner-header-background {
@@ -618,7 +618,7 @@ body {
 .filter-hotels {
   line-height: 1.294;
   margin: 0 0 0 -36px;
-  padding: 0 72px 46px;
+  padding: 0 72px 47px;
 }
 
 .filter-group-infrastructure {
@@ -637,7 +637,7 @@ body {
 .search-hotels-choice {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 54px;
+  margin-bottom: 53px;
 }
 
 .format-selection {
@@ -649,7 +649,7 @@ body {
 }
 
 .display-format {
-  margin: 4px 0 0 4px;
+  margin: 3px 0 0 4px;
   border-radius: 4px;
   border: 2px solid #e6e6e6;
   display: flex;
@@ -719,7 +719,7 @@ body {
 }
 
 .select-pages {
-  margin-left: 58px;
+  margin-left: 55px;
   width: 160px;
 }
 
@@ -779,7 +779,7 @@ body {
 .price-hotel {
   font-size: 20px;
   font-weight: 700;
-  margin: 0 0 36px;
+  margin: 0 0 35px;
   padding: 0;
 }
 
@@ -931,7 +931,7 @@ body {
 
 .filter-group-housing {
   border: none;
-  margin: 14px 0 36px 39px;
+  margin: 14px 0 35px 38px;
   padding: 0;
   width: 180px;
 }
@@ -949,8 +949,8 @@ body {
 
 .button-catalog {
   padding: 13px;
-  margin-bottom: 17px;
-  font-size: 17px;
+  margin-bottom: 18px;
+  font-size: 16px;
   line-height: 22px;
 }
 
@@ -1087,7 +1087,7 @@ body {
   font-size: 30px;
   line-height: 39px;
   text-transform: uppercase;
-  margin: 8px 30px 0 0;
+  margin: 7px 30px 0 0;
 }
 
 .product-card {
@@ -1096,7 +1096,7 @@ body {
   display: grid;
   gap: 16px 26px;
   grid-template-columns: 133px 1fr;
-  padding: 19px 20px 21px;
+  padding: 20px;
 }
 
 .product-card-title {
@@ -1108,12 +1108,12 @@ body {
   margin: 10px 0 0;
 }
 
-.product-card-type {
+.product-card-text {
   color: #333333;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
-  margin: 0 0 1px 2px;
+  margin: 0;
 }
 
 .product-card-link {
@@ -1210,27 +1210,26 @@ body {
 .result-more {
   border-bottom: 1px solid #e6e6e6;
   border-top: 1px solid #e6e6e6;
-  margin: 33px 0 30px;
-  padding: 30px;
+  margin: 29px 0 24px;
+  padding: 35px;
 }
 
 .pagination-item {
   font-size: 20px;
   line-height: 26px;
-  margin: 7px 0 0 7px;
+  margin: 8px 0 0 8px;
 }
 
 .pagination {
   display: flex;
   width: 1060px;
   justify-content: space-between;
-  margin: -1px 1px 0 3px;
 }
 
 .pagination-list {
   display: flex;
   flex-wrap: wrap;
-  margin: -7px 0 0 -7px;
+  margin: -8px 0 0 -8px;
   padding: 0;
   list-style-type: none;
 }
