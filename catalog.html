@@ -7,6 +7,8 @@
     Седона.Каталог
   </title>
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon.png">
 </head>
 
 <body>
@@ -79,7 +81,8 @@
         <ol class="breadcrumbs header-breadcrumbs">
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link breadcrumbs-link-house" href="index.html">
-              <span class="visually-hidden">Главная.
+              <span class="visually-hidden">
+                Главная.
               </span>
             </a>
           </li>
@@ -158,11 +161,15 @@
             <div class="range">
               <label class="range-group">
                 <input class="range-field" name="price[]" type="number" value="0" max="11100" min="0" step="100">
-                <span class="range-label">От</span>
+                <span class="range-label">
+                  От
+                </span>
               </label>
               <label class="range-group">
                 <input class="range-field" name="price[]" type="number" value="9000" max="11100" min="0" step="100">
-                <span class="range-label">До</span>
+                <span class="range-label">
+                  До
+                </span>
               </label>
             </div>
             <div class="range-target">
@@ -203,8 +210,8 @@
         <p class="search-hotels">
           Найдено гостиниц: 38
         </p>
-        <span class="select">
-          <select class="select-control select-control-viewing" aria-label="Сортировка">
+        <span class="select select-sorting">
+          <select class="select-control" aria-label="Сортировка">
             <option value="popular">
               Сначала дешёвые
             </option>
@@ -216,7 +223,7 @@
             </option>
           </select>
         </span>
-        <ul class=format-selection>
+        <ul class="format-selection">
           <li>
             <a class="display-format display-format-tile display-format-current" href="#">
               <span class="visually-hidden">
@@ -249,10 +256,10 @@
               Amara Resort &amp; Spa
             </h3>
           </a>
-          <b class="product-card-type">
+          <b class="product-card-text">
             Гостиница
           </b>
-          <b class="product-card-price">
+          <b class="product-card-text">
             От 4000 ₽
           </b>
           <a class="button-link" href="#">
@@ -278,10 +285,10 @@
               Desert Quail Inn
             </h3>
           </a>
-          <b class="product-card-type">
+          <b class="product-card-text">
             Гостиница
           </b>
-          <b class="product-card-price">
+          <b class="product-card-text">
             От 5000 ₽
           </b>
           <a class="button-link" href="#">
@@ -307,10 +314,10 @@
               Villas at Poco Diablo
             </h3>
           </a>
-          <b class="product-card-type">
+          <b class="product-card-text">
             Гостиница
           </b>
-          <b class="product-card-price">
+          <b class="product-card-text">
             От 2000 ₽
           </b>
           <a class="button-link" href="#">
@@ -336,10 +343,10 @@
               GreenTree Inn
             </h3>
           </a>
-          <b class="product-card-type">
+          <b class="product-card-text">
             Гостиница
           </b>
-          <b class="product-card-price">
+          <b class="product-card-text">
             От 3000 ₽
           </b>
           <a class="button-link" href="#">
@@ -360,13 +367,13 @@
       </ul>
       <p class="result-more">
         <button class="button pagination-link pagination-show-more" type="button">
-          Загрузить еще
+          Загрузить ещё
         </button>
       </p>
-      <div class=pagination>
+      <div class="pagination">
         <ul class="pagination-list">
           <li class="pagination-item">
-            <a class="pagination-link pagination-current button">
+            <a class="pagination-link pagination-current button" href="#">
               1
             </a>
           </li>
@@ -396,10 +403,10 @@
             </a>
           </li>
         </ul>
-        <form class="hotels-page" action="https://echo.htmlacademy.ru/">
-          <label class="show-hotels">
-            Гостиниц на странице:
-            <select class="select-control select-control-pages">
+        <label class="show-hotels">
+          Гостиниц на странице:
+          <span class="select select-pages">
+            <select class="select-control">
               <option value="minimum">
                 4
               </option>
@@ -410,8 +417,8 @@
                 12
               </option>
             </select>
-          </label>
-        </form>
+          </span>
+        </label>
       </div>
     </section>
     <section class="distribution-catalog">
@@ -419,14 +426,16 @@
         Подпишитесь на рассылку
       </h2>
       <p class="description-explanation description-explanation-inner">
-        Только полезная информация и никакого спама, <br> честное бойскаутское!
+        Только полезная информация и никакого спама,
+        <br>
+        честное бойскаутское!
       </p>
       <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
         <label>
           <span class="visually-hidden">
             Ваш e-mail.
           </span>
-          <input class="field" name="newsletter-email" type="email" placeholder="Ваш e-mail">
+          <input class="field" name="newsletter-email" type="email" placeholder="Ваш e-mail" required="">
         </label>
         <button class="button newsletter-button" type="submit">
           Подписаться

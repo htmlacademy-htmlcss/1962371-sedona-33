@@ -7,6 +7,8 @@
     Седона. Главная
   </title>
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon.png">
 </head>
 
 <body>
@@ -98,7 +100,11 @@
               — №1 —
             </p>
             <p class="description-item">
-              Седона — не аттракцион <br> для туристов, там течёт <br> своя жизнь.
+              Седона — не аттракцион
+              <br>
+              для туристов, там течёт
+              <br>
+              своя жизнь.
             </p>
           </div>
           <img class="pic" src="images/sedona-picture/sedona-street.jpg" width="800" height="384" alt="Кусочек Седоны">
@@ -202,25 +208,29 @@
         Заинтересовались?
       </p>
       <p class="description-explanation">
-        Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне &nbsp;
+        Укажите предполагаемые даты поездки,
+        <br>
+        и мы покажем вам лучшие предложения гостиниц в Седоне &nbsp;
       </p>
-      <button class="button-link link-search-hotels-sedona" type="button">
-        Поиск гостиниц в седоне
-      </button>
+      <a class="button-link link-search-hotels-sedona" href="#">
+        Поиск гостиницы в Седоне
+      </a>
     </div>
     <section class="distribution">
       <h2 class="main-title main-title-mailing">
         Подпишитесь на рассылку
       </h2>
       <p class="description-explanation description-explanation-mailing">
-        Только полезная информация и никакого спама, <br> честное бойскаутское!
+        Только полезная информация и никакого спама,
+        <br>
+        честное бойскаутское!
       </p>
       <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
         <label>
           <span class="visually-hidden">
             Ваш e-mail.
           </span>
-          <input class="field" name="newsletter-email" type="email" placeholder="Ваш e-mail">
+          <input class="field" name="newsletter-email" type="email" placeholder="Ваш e-mail" required="">
         </label>
         <button class="button newsletter-button" type="submit">
           Подписаться
@@ -233,7 +243,7 @@
       <h2 class="visually-hidden">
         Социальные сети.
       </h2>
-      <ul class=footer-social-list>
+      <ul class="footer-social-list">
         <li class="footer-social-item">
           <a class="footer-social-link footer-social-tw" href="https://twitter.com/htmlacademy_ru">
             <span class="visually-hidden">
@@ -278,7 +288,7 @@
   </footer>
   <div class="modal-container modal-container-close">
     <div class="modal">
-      <button class="modal-close-button">
+      <button class="modal-close-button" type="button">
         <span class="visually-hidden">
           Закрыть окно.
         </span>
@@ -375,17 +385,6 @@
       </section>
     </div>
   </div>
-
-
-
-
-
-  <script>
-    window.pinegladePP = {
-      breakpoints: [1200]
-    };
-  </script>
-  <script src="https://efiand.github.io/pineglade-pp/pineglade-pp.min.js"></script>
 </body>
 
 </html>
