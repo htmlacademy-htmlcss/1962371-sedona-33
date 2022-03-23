@@ -319,7 +319,6 @@ body {
 .services-item {
   width: 256px;
   padding: 98px 72px 89px;
-  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .services-title {
@@ -443,6 +442,7 @@ body {
   border-radius: 10px 0 0 10px;
   font: inherit;
   border: 2px solid transparent;
+  background-color: #f2f2f2;
 }
 
 .field:hover {
@@ -757,11 +757,11 @@ body {
 
 .select-control:hover,
 .select-control:focus-visible {
-  border: 2px solid #83B3D3;
+  border-color: #83b3d3;
 }
 
 .select-control:active {
-  outline: 2px solid #E6E6E6;
+  border-color: #e6e6e6;
   color: rgb(51, 51, 51, 0.3);
 }
 
@@ -940,7 +940,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 160px;
-  margin: 75px 0 0 0;
+  margin: 75px 0 0;
 }
 
 .control-input {
@@ -1190,28 +1190,28 @@ body {
 }
 
 .product-card-active {
-  background-color: #7DB54F;
+  background-color: #7db54f;
 }
 
 .product-card-active:hover {
-  background-color: #6C9E42;
+  background-color: #6c9e42;
 }
 
 .product-card-active:focus-visible {
-  background-color: #6C9E42;
+  background-color: #6c9e42;
   outline: 3px solid #756257;
 }
 
 .product-card-active:active {
-  background-color: #6C9E42;
+  background-color: #6c9e42;
   color: rgba(255, 255, 255, 0.3);
 }
 
 .result-more {
   border-bottom: 1px solid #e6e6e6;
   border-top: 1px solid #e6e6e6;
-  margin: 29px 0 24px;
-  padding: 35px;
+  margin: 35px 0 29px;
+  padding: 29px 72px 30px;
 }
 
 .pagination-item {
@@ -1222,7 +1222,6 @@ body {
 
 .pagination {
   display: flex;
-  width: 1060px;
   justify-content: space-between;
 }
 
@@ -1261,14 +1260,10 @@ body {
   width: 620px;
 }
 
-
-.pagination-current {
-  background-color: #f2f2f2;
-  color: #000000;
-  cursor: not-allowed;
-}
-
-.pagination-current:hover {
+.pagination-current,
+.pagination-current:hover,
+.pagination-current:focus-visible,
+.pagination-current:active {
   background-color: #f2f2f2;
   color: #000000;
 }
@@ -1281,6 +1276,7 @@ body {
 .show-hotels {
   display: flex;
   align-items: center;
+  color: #333333;
 }
 
 .footer-social-link {
@@ -1497,7 +1493,6 @@ body {
 .form-field::placeholder {
   color: inherit;
   opacity: 0.6;
-  font-family: inherit;
 }
 
 .form-button:hover {
