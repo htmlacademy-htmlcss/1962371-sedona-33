@@ -100,6 +100,10 @@ img {
   outline: 3px solid #83b3d3;
 }
 
+.navigation-link-favotite:active .number-of-likes {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .navigation-link {
   display: block;
   padding: 18px 0;
@@ -210,6 +214,7 @@ img {
   background-repeat: no-repeat;
   margin: 0 0 62px;
   min-height: 485px;
+  background-color: #83b3d3;
 }
 
 .main-container {
@@ -515,6 +520,7 @@ img {
   background-image: url("../images/sedona-picture/background-footer.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
+  background-color: #756257;
 }
 
 .inner-header-title {
@@ -532,6 +538,7 @@ img {
   background-image: url("../images/sedona-picture/catalog-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  background-color: #756257;
 }
 
 .header-breadcrumbs {
