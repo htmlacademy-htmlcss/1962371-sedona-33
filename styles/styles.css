@@ -28,6 +28,7 @@ body {
   font-size: 18px;
   line-height: 24px;
   background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 img {
@@ -98,6 +99,10 @@ img {
 
 .navigation-user-link:focus-visible {
   outline: 3px solid #83b3d3;
+}
+
+.navigation-link-favotite:active .number-of-likes {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .navigation-link {
@@ -210,6 +215,7 @@ img {
   background-repeat: no-repeat;
   margin: 0 0 62px;
   min-height: 485px;
+  background-color: #83b3d3;
 }
 
 .main-container {
@@ -360,7 +366,7 @@ img {
 .footer-page {
   display: flex;
   flex-wrap: wrap;
-  padding: 38px 72px;
+  padding: 40px 72px 38px;
 }
 
 .footer-social {
@@ -510,11 +516,12 @@ img {
 .distribution {
   margin: 0 auto;
   height: 224px;
-  padding: 29px 72px 160px;
+  padding: 29px 72px 158px;
   color: #ffffff;
   background-image: url("../images/sedona-picture/background-footer.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
+  background-color: #756257;
 }
 
 .inner-header-title {
@@ -532,6 +539,7 @@ img {
   background-image: url("../images/sedona-picture/catalog-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  background-color: #756257;
 }
 
 .header-breadcrumbs {
@@ -631,7 +639,7 @@ img {
 .filter-hotels {
   line-height: 1.294;
   margin: 0 0 0 -36px;
-  padding: 0 72px 47px;
+  padding: 0 72px 36px;
 }
 
 .filter-group-infrastructure {
@@ -790,7 +798,7 @@ img {
 }
 
 .distribution-catalog {
-  padding-bottom: 143px;
+  padding-bottom: 141px;
 }
 
 .price {
@@ -1108,7 +1116,7 @@ img {
 }
 
 .sorting-hotel {
-  padding: 30px 72px;
+  padding: 41px 72px 30px;
 }
 
 .search-hotels {
